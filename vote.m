@@ -1,3 +1,5 @@
+//voting function
+
 function [ result ] = vote( zmr1, zmr2, zmr3 )
 %vote Summary of this function goes here
 %   Detailed explanation goes here
@@ -10,4 +12,5 @@ function [ result ] = vote( zmr1, zmr2, zmr3 )
        result(1,i) = B;
     end
 end
+
 
